@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wv Golf
+* source:	https://sketchfab.com/3d-models/wv-golf-b597700a58a94cdf8b24de6dacacdbb6
+* author:	zizian (https://sketchfab.com/zizian)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wv Golf" (https://sketchfab.com/3d-models/wv-golf-b597700a58a94cdf8b24de6dacacdbb6) by zizian (https://sketchfab.com/zizian) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
