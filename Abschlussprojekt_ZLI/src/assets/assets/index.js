@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import herobg from "./herobg.png";
+import urlicon from "./urlicon.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -61,4 +62,5 @@ export {
   jobit,
   tripguide,
   herobg,
+  urlicon,
 };

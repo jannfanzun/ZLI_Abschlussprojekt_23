@@ -225,6 +225,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    web_link: "",
   },
   {
     name: "Job IT",
@@ -246,6 +247,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    web_link: "",
   },
   {
     name: "Trip Guide",
@@ -267,6 +269,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    web_link: "",
   },
 ];
 

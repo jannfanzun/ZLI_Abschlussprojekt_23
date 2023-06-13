@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt"
 import { SectionWrapper } from '../../hoc'
 import {motion} from "framer-motion"
 import { styles } from '../../styles'
-import { github } from '../../assets/assets'
+import { github, urlicon } from '../../assets/assets'
 import { projects } from '../../constants'
 import { fadeIn, textVariant } from '../../utils/motion'
 
@@ -13,35 +13,42 @@ const ProjectCard = ({index, name, description, tags, image, source_code}) => { 
       variants={fadeIn("left", "spring", index * 0.5, 1)}
     >
       <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[440px] w-full'
+  options={{
+    max: 45,
+    scale: 1,
+    speed: 450
+  }}
+  className='bg-tertiary p-5 rounded-2xl sm:w-[440px] w-full'
+>
+  <div className='relative w-full h-[230px]'>
+    <img
+      src={image}
+      alt={name}
+      className='w-full h-full object-cover rounded-2xl'
+    />
+    <div className='absolute inset-0 flex justify-end m-3 car-img_hover'>
+      <div
+        onClick={() => window.open(source_code_link, "_blank")}
+        className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
       >
-        <div
-          className='relative w-full h-[230px]'
-        >
-          <img src={image}
-            alt={name}
-            className='w-full h-full object-cover rounded-2xl'
-           />
-           <div
-           className='absolute inset-0 flex justify-end m-3 car-img_hover'
-           >
-            <div
-              onClick={() => window.open
-              (source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img 
-                src={github}
-              />
-            </div>
-           </div>
-        </div>
-      </Tilt>
+        <img src={github} alt='github' className='w-4/5 h-4/5 object-contain' />
+      </div>
+    </div>
+    <div className='absolute bottom-0 right-0 m-3 car-img_hover'>
+      <div
+        onClick={() => window.open(web_link, "_blank")}
+        className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+      >
+        <img src={urlicon} alt='url' className='w-4/5 h-4/5 object-contain' />
+      </div>
+    </div>
+  </div>
+  <div className='mt-5'>
+    <h3>{name}</h3>
+    <p>{description}</p>
+  </div>
+</Tilt>
+
     </motion.div>
   )
 }
