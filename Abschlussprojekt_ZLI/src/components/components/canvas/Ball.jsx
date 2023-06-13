@@ -36,6 +36,7 @@ const BallCanvas = ({ icon }) => {
     <Canvas
       frameloop='demand'
       gl={{ preserveDrawingBuffer: true }}
+      className="cursor-pointer"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
