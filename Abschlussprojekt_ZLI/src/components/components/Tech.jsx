@@ -9,8 +9,8 @@ const Tech = () => {
   return (
     <>
     <motion.div>
-      <p className={styles.sectionSubText}>What languages have I programmed in?</p>
-      <h2 className={styles.sectionHeadText}>My Skills.</h2>
+      <p className={`${styles.sectionSubText} text-center`}>What languages have I programmed in?</p>
+      <h2 className={`${styles.sectionHeadText} text-center`}>My Skills.</h2>
     </motion.div>
     <div className='flex flex-row flex-wrap justify-center gap-12 mt-10'>
       {technologies.map((technology) => (

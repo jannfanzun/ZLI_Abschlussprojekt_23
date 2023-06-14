@@ -6,7 +6,7 @@ const Loader = () => {
   const {progress} = useProgress();
   return (
     <Html>
-      <span className="canvas-load"></span>
+      <span className="canvas-load flex justify-center text-center"></span>
       <p 
       style={{
         fontSize: 14,
