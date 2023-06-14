@@ -1,4 +1,8 @@
 import logo from "./logo.svg";
+import logopurple from "./logo-color.svg"
+import logowhite from "./logo-white.svg"
+import logoblack from "./logo-black.svg"
+import logopurpletrans from "./logopurpletrans.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -63,4 +67,8 @@ export {
   tripguide,
   herobg,
   urlicon,
+  logopurple,
+  logowhite,
+  logoblack,
+  logopurpletrans
 };

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import {styles} from '../../styles';
 import {navLinks} from '../../constants/index';
-import {logo, menu, close} from '../../assets/assets/index'
+import {logoblack, menu, close} from '../../assets/assets/index'
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logoblack} alt='logo' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Jann Fanzun &nbsp;
             <span className='ld:block hidden'> | Portfolio</span>
