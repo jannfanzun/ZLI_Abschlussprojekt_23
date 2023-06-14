@@ -1,26 +1,27 @@
-import React from 'react'
 import Tilt from "react-parallax-tilt"
 import { SectionWrapper } from '../../hoc'
 import {motion} from "framer-motion"
 import { styles } from '../../styles'
 import { github, urlicon } from '../../assets/assets'
 import { projects } from '../../constants'
-import { fadeIn, textVariant } from '../../utils/motion'
+import { fadeIn } from '../../utils/motion'
+
+
 
 const ProjectCard = ({index, name, description, tags, image, source_code}) => { // den array von index.js -> daten holen
   return (
     <motion.div 
       variants={fadeIn("left", "spring", index * 0.5, 1)}
     >
-      <Tilt
-  options={{
-    max: 45,
-    scale: 1,
-    speed: 450
-  }}
-  className='bg-tertiary p-5 rounded-2xl sm:w-[440px] w-full'
->
-  <div className='relative w-full h-[230px]'>
+     <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary p-5 rounded-2xl md:w-[450px] w-full'
+      >
+         <div className='relative w-full h-[230px]'>
     <img
       src={image}
       alt={name}
@@ -44,11 +45,20 @@ const ProjectCard = ({index, name, description, tags, image, source_code}) => { 
     </div>
   </div>
   <div className='mt-5'>
-    <h3>{name}</h3>
-    <p>{description}</p>
+    <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+    <p className='mt-2 text-secondary text-[14px]'>{description}</p>
   </div>
+  <div className='mt-4 flex flex-wrap gap-2'>
+          {tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] ${tag.color}`}
+            >
+              #{tag.name}
+            </p>
+          ))}
+        </div>
 </Tilt>
-
     </motion.div>
   )
 }
