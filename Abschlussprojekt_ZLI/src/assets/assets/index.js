@@ -12,6 +12,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import herobg from "./herobg.png";
 import urlicon from "./urlicon.png";
+import githubfooter from "./icons8-github (1).svg";
+import linkedinfooter from "./icons8-linkedin (1).svg";
+import instagram from "./icons8-instagram-old.svg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -70,5 +73,8 @@ export {
   logopurple,
   logowhite,
   logoblack,
-  logopurpletrans
+  logopurpletrans,
+  githubfooter,
+  instagram,
+  linkedinfooter
 };

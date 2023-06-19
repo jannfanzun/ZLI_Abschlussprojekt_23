@@ -23,7 +23,28 @@ import {
   jobit,
   tripguide,
   threejs,
+  instagram,
+  linkedinfooter,
+  githubfooter,
 } from "../assets/assets";
+
+// export const socialmediaFooter = [
+//   {
+//     id: "githubfooter",
+//     title: "GithubFooter",
+//     web_link: "https://github.com/jannfanzun",
+//   },
+//   {
+//     id: "linkedin",
+//     title: "linkedIn",
+//     web_link: "https://www.linkedin.com/in/jann-fanzun-a5b5191a2/",
+//   },
+//   {
+//     id: "instagram",
+//     title: "Instagram",
+//     web_link: "https://www.instagram.com/jann.fanzun/",
+//   },
+// ];
 
 export const navLinks = [
   {
@@ -31,16 +52,17 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "work",
     title: "Work",
   },
-  {
-    id: "skills",
-    title: "Skills"
-  },
+
   {
     id: "projects",
-    title: "Projects"
+    title: "Projects",
   },
   {
     id: "contact",
@@ -273,4 +295,11 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  // socialmediaFooter,
+};
