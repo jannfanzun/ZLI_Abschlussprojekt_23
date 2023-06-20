@@ -26,6 +26,11 @@ import {
   instagram,
   linkedinfooter,
   githubfooter,
+  mdcoaching,
+  zli,
+  mdcoachingbild,
+  todoappsoxes,
+  soxes,
 } from "../assets/assets";
 
 // export const socialmediaFooter = [
@@ -146,57 +151,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Start apprenticeship",
+    company_name: "soxes GmbH",
+    icon: soxes,
+    iconBg: "#fe783b",
+    date: "August 2022 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn effective communication skills and foster teamwork and collaboration.",
+      "Gain hands-on experience in real-world projects, acquiring problem-solving skills and navigating the project lifecycle.",
+      "Develop the ability to effectively communicate project objectives, progress, and results to supervisors or higher-level management.",
+      "Engage in ongoing learning and professional development to stay updated with emerging technologies and industry trends as a computer scientist.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Basic apprenticeship year",
+    company_name: "Zürcher Lehrbetriebsverband ICT",
+    icon: zli,
+    iconBg: "#FFFFFF",
+    date: "August 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I focused on learning the basics of frontend development, including HTML, CSS, JavaScript and React. This allowed me to create visually appealing and interactive user interfaces.",
+      "I also delved into backend technologies, such as programming languages like Java or Python, server-side frameworks, and databases. This gave me the ability to develop the logic and functionality behind web applications.",
+      "I had the opportunity to collaborate on projects with fellow developers of similar age. This experience enhanced my teamwork, communication, and problem-solving skills while applying my knowledge in real-world scenarios.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -228,48 +232,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MDCoaching",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This modern digital fitness coaching website offers a newsletter subscription for staying updated on the latest fitness trends, a convenient contact form for inquiries, and a wealth of information about the diverse range of personalized coaching offers available.",
     tags: [
       {
-        name: "react",
+        name: "web-development",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "fitness",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "frontend",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    web_link: "",
+    image: mdcoachingbild,
+    source_code_link: "https://github.com/jannfanzun/Project-Website",
+    web_link: "https://mdcoaching.ch/",
   },
   {
-    name: "Job IT",
+    name: "Todo App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Python Flask Todo app is a secure and user-friendly task management application. Users can create individual accounts with register and login functionalities. With advanced features like password hashing, it ensures data security.",
     tags: [
       {
-        name: "react",
+        name: "python-flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "frontend",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "backend",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    web_link: "",
+    image: todoappsoxes,
+    source_code_link: "https://github.com/jannfanzun/0_8_soxes_Prak_Fruehling",
+    web_link: "https://happy-mushroom-0b834b403.3.azurestaticapps.net/index.html",
   },
   // {
   //   name: "Trip Guide",

@@ -31,7 +31,7 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, name }) => {
   return (
     <Canvas
       gl={{ preserveDrawingBuffer: true }}

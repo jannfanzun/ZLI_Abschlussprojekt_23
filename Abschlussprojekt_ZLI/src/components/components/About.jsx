@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>How I work</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -47,7 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem corporis officiis animi dignissimos eveniet nisi odit, est tempora fugit modi repellat unde inventore sunt natus a explicabo error enim labore! Saepe molestias, vel dolorum, error ipsum, sit modi inventore voluptatem distinctio corporis recusandae earum?
+        I utilize my creative flair to create appealing websites that enhance user experience and set your business apart from the competition.
+
+With extensive knowledge in programming languages, databases, and web technologies, I develop customized IT solutions for complex problems.
+
+I work closely with clients, actively listen, and communicate transparently to ensure that their expectations are met.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

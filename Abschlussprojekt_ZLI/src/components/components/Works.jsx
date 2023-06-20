@@ -8,7 +8,7 @@ import { fadeIn } from '../../utils/motion'
 
 
 
-const ProjectCard = ({index, name, description, tags, image, source_code}) => { // den array von index.js -> daten holen
+const ProjectCard = ({index, name, description, tags, image, source_code_link, web_link}) => { // den array von index.js -> daten holen
   return (
     <motion.div 
       variants={fadeIn("left", "spring", index * 0.5, 1)}
@@ -75,8 +75,7 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, aspernatur dolores. Quidem optio ipsum excepturi quaerat sequi fugiat blanditiis at animi placeat, omnis eaque qui est architecto perspiciatis possimus error dicta veniam, quos tempore nisi nulla soluta nihil ullam. Repellendus repudiandae expedita nisi fuga voluptate.
-      </motion.p>
+I have curated a collection of projects that highlight my skills and experience, providing real-world examples of my work. Each project is accompanied by a concise description and includes links to code repositories and live demos, demonstrating my proficiency in solving complex problems, utilizing various technologies, and effectively managing projects.      </motion.p>
     </div>
     <div className='mt-20 flex flex-wrap gap-10'>
       {projects.map((project, index) => (

@@ -15,6 +15,11 @@ import urlicon from "./urlicon.png";
 import githubfooter from "./icons8-github (1).svg";
 import linkedinfooter from "./icons8-linkedin (1).svg";
 import instagram from "./icons8-instagram-old.svg"
+import mdcoaching from "./company/favicon-mdcoaching.png"
+import zli from "./company/zli.png"
+import soxes from "./company/soxes.jpeg"
+import mdcoachingbild from "./mdcoachingbild.png"
+import todoappsoxes from "./todosoxesapp.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -76,5 +81,10 @@ export {
   logopurpletrans,
   githubfooter,
   instagram,
-  linkedinfooter
+  linkedinfooter,
+  mdcoaching,
+  zli,
+  soxes,
+  mdcoachingbild,
+  todoappsoxes
 };
