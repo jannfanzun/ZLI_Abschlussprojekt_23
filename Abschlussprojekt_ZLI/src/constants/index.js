@@ -31,7 +31,12 @@ import {
   mdcoachingbild,
   todoappsoxes,
   soxes,
+  knowhow,
+  creativity,
+  teamwork,
 } from "../assets/assets";
+
+
 
 // export const socialmediaFooter = [
 //   {
@@ -78,15 +83,15 @@ export const navLinks = [
 const services = [
   {
     title: "Customer focus",
-    icon: web,
+    icon: teamwork,
   },
   {
     title: "Creativity",
-    icon: mobile,
+    icon: creativity,
   },
   {
     title: "Know How",
-    icon: backend,
+    icon: knowhow,
   },
   // {
   //   title: "Content Creator",
@@ -273,7 +278,7 @@ const projects = [
     ],
     image: todoappsoxes,
     source_code_link: "https://github.com/jannfanzun/0_8_soxes_Prak_Fruehling",
-    web_link: "https://happy-mushroom-0b834b403.3.azurestaticapps.net/index.html",
+    web_link: "https://happy-mushroom-0b834b403.3.azurestaticapps.net/register.html",
   },
   // {
   //   name: "Trip Guide",

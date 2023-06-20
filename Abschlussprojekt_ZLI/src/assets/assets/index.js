@@ -44,8 +44,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import knowhow from "./icons8-regeln-80.png"
+import creativity from "./icons8-creative-64.png"
+import teamwork from "./icons8-bedienung-verlangen-80.png"
+
 export {
   logo,
+  knowhow,
+  creativity,
+  teamwork,
   backend,
   creator,
   mobile,
