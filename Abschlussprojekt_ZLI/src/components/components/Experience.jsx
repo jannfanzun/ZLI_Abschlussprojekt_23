@@ -51,7 +51,6 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-
 const Experience = () => {
   return (
     <>

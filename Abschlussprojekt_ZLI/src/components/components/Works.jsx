@@ -8,18 +8,17 @@ import { fadeIn } from '../../utils/motion'
 
 
 
+// eslint-disable-next-line react/prop-types
 const ProjectCard = ({index, name, description, tags, image, source_code_link, web_link}) => { // den array von index.js -> daten holen
   return (
-    <motion.div 
-      variants={fadeIn("left", "spring", index * 0.5, 1)}
-    >
-     <Tilt
+    <motion.div variants={fadeIn("down", "spring", index * 0.5, 3)}>
+      <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl md:w-[520px] w-full'
+        className="bg-tertiary p-5 rounded-2xl lg:w-[435px] md:w-full w-full"
       >
          <div className='relative w-full h-[230px]'>
     <img

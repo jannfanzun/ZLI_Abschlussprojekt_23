@@ -1,9 +1,10 @@
-import React, { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+// eslint-disable-next-line react/prop-types
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("../../../../public/desktop_pc/scene.gltf");
 
@@ -11,6 +12,7 @@ const Computers = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
+        // eslint-disable-next-line react/no-unknown-property
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
@@ -20,6 +22,7 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
+        // eslint-disable-next-line react/no-unknown-property
         object={computer.scene}
         scale={isMobile ? 0.5 : 0.7}
         position={isMobile ? [0, -6, -1.8] : [0, -4.75, -1.5]}

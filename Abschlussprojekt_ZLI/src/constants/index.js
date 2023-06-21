@@ -36,8 +36,6 @@ import {
   teamwork,
 } from "../assets/assets";
 
-
-
 // export const socialmediaFooter = [
 //   {
 //     id: "githubfooter",
@@ -82,16 +80,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Customer focus",
+    title: "customer focus",
     icon: teamwork,
+    description:
+      "I closely collaborate with clients, actively listen, and communicate transparently to ensure their expectations are met and we both are happy.",
   },
   {
-    title: "Creativity",
+    title: "creativity",
     icon: creativity,
+    description:
+      "I leverage my creative flair to create compelling websites that enhance user experience and differentiate your business from the competition.",
   },
   {
-    title: "Know How",
+    title: "know-how",
     icon: knowhow,
+    description:
+      "With extensive knowledge in programming languages, databases, and web technologies, I develop IT solutions for complex problems.",
   },
   // {
   //   title: "Content Creator",
@@ -278,7 +282,8 @@ const projects = [
     ],
     image: todoappsoxes,
     source_code_link: "https://github.com/jannfanzun/0_8_soxes_Prak_Fruehling",
-    web_link: "https://happy-mushroom-0b834b403.3.azurestaticapps.net/register.html",
+    web_link:
+      "https://happy-mushroom-0b834b403.3.azurestaticapps.net/register.html",
   },
   // {
   //   name: "Trip Guide",
