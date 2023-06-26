@@ -2,7 +2,7 @@
 
 Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mithilfe von React, Tailwind CSS und Three.js umgesetzt wurde.
 
-![img](landingpagePortfolio.png)
+![img](Dokumente/landingpagePortfolio.png)
 ## Inhaltsverzeichnis
 
 - [Abschlussprojekt ZLI](#abschlussprojekt-zli)
