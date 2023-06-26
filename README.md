@@ -3,9 +3,14 @@
 Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mithilfe von React, Tailwind CSS und Three.js umgesetzt wurde.
 
 ![img](Dokumente/landingpagePortfolio.png)
+
+#### Link:
+
+https://jannfanzun.vercel.app/
 ## Inhaltsverzeichnis
 
 - [Abschlussprojekt ZLI](#abschlussprojekt-zli)
+      - [Link:](#link)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Installation](#installation)
   - [Verwendung](#verwendung)
@@ -45,5 +50,4 @@ Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mith
 
 ## Lizenz
 
-Dieses Projekt ist unter der Copyright lizenziert.
-
+Dieses Projekt ist urheberrechtlich geschützt und unterliegt den entsprechenden Rechten.
