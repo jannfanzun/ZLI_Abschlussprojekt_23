@@ -45,5 +45,5 @@ Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mith
 
 ## Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. Weitere Informationen findest du in der `LICENSE`-Datei.
+Dieses Projekt ist unter der Copyright lizenziert.
 
