@@ -16,7 +16,7 @@ import githubfooter from "./icons8-github (1).svg";
 import linkedinfooter from "./icons8-linkedin (1).svg";
 import instagram from "./icons8-instagram-old.svg"
 import mdcoaching from "./company/favicon-mdcoaching.png"
-import zli from "./company/zli.png"
+import zli from "./company/ZLI_Logo_ohne_Schriftzug_RGB_zugeschnitten.svg"
 import soxes from "./company/soxes.jpeg"
 import mdcoachingbild from "./mdcoachingbild.png"
 import todoappsoxes from "./todosoxesapp.png"
