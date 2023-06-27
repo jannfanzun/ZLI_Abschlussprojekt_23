@@ -1,13 +1,13 @@
-# Abschlussprojekt ZLI
+# Abschlussprojekt ZLI 💻
 
 Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mithilfe von React, Tailwind CSS und Three.js umgesetzt wurde.
 
 ![img](Dokumente/landingpagePortfolio.png)
 
-#### Link:
+#### 🔎 Link:
 
 https://jannfanzun.vercel.app/
-## Inhaltsverzeichnis
+### 📄 Inhaltsverzeichnis
 
 - [Abschlussprojekt ZLI](#abschlussprojekt-zli)
       - [Link:](#link)
@@ -18,18 +18,18 @@ https://jannfanzun.vercel.app/
   - [Technologien](#technologien)
   - [Lizenz](#lizenz)
 
-## Installation
+### 🧨 Installation
 
 1. Klone das Repository: `git clone https://github.com/jannfanzun/ZLI_Abschlussprojekt_23.git`
 2. Wechsle in das Projektverzeichnis: `cd .\Abschlussprojekt_ZLI\`
 3. Installiere die Abhängigkeiten: `npm install @react-three/fiber @react-three/drei maath react-parallax-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom` && `npm install -D tailwindcss postcss autoprefixer` && `npx tailwindcssinit -p `
 
-## Verwendung
+### 🚀 Verwendung
 
 1. Starte das Terminal und run die Applikation: `npm run dev`
 2. Öffne deinen Webbrowser und gehe zu: `http://localhost:xxxx` _**(der Localhost ist bei jedem anders)**_
 
-## Funktionen
+### 📐 Funktionen
 
 - Auf der Webseite kannst du die 3d Elemente mit der Maus bewegen.
   - **Linke Maustaste:** drehen
@@ -39,7 +39,7 @@ https://jannfanzun.vercel.app/
 - Du kannst mir über das Kontaktformular eine Nachricht senden.
 
 
-## Technologien
+### 👾 Technologien 
 
 - **_React_**: Eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen.
 - **_Three.js_**: Eine plattformübergreifende JavaScript-Bibliothek zur Erstellung von 3D-Grafiken in Webbrowsern.
@@ -48,6 +48,6 @@ https://jannfanzun.vercel.app/
 - **_Tailwind CSS_**: Ein CSS-Framework, das vorgefertigte Klassen verwendet, um das Design und Layout der Website zu gestalten.
 - **_Email.js_**: Eine JavaScript-Bibliothek zur einfachen Integration von E-Mail-Versandfunktionen in die Website.
 
-## Lizenz
+### ✔ Lizenz
 
 Dieses Projekt ist urheberrechtlich geschützt und unterliegt den entsprechenden Rechten.

@@ -79,12 +79,12 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "customer focus",
-    icon: teamwork,
-    description:
-      "I closely collaborate with clients, actively listen, and communicate transparently to ensure their expectations are met and we both are happy.",
-  },
+  // {
+  //   title: "customer focus",
+  //   icon: teamwork,
+  //   description:
+  //     "I closely collaborate with clients, actively listen, and communicate transparently to ensure their expectations are met and we both are happy.",
+  // },
   {
     title: "creativity",
     icon: creativity,
