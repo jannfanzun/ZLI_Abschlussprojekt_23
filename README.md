@@ -1,13 +1,13 @@
-# final project ZLI 💻
+# Final project ZLI 💻
 
 For my final project in ZLI, I developed a portfolio website using React, Tailwind CSS, and Three.js.
 
-![img](Dokumente/landingpagePortfolio.png)
+![img](landingpagePortfolio.png)
 
-### 📄 Inhaltsverzeichnis
+### 📄 Table of Contents
 
-- [final project ZLI 💻](#final-project-zli-)
-    - [📄 Inhaltsverzeichnis](#-inhaltsverzeichnis)
+- [Final project ZLI 💻](#final-project-zli-)
+    - [📄 Table of Contents](#-table-of-contents)
     - [🔎 Link:](#-link)
     - [🧨 Installation](#-installation)
     - [🚀 Usage](#-usage)
