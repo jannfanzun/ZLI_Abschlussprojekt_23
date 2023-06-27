@@ -34,6 +34,7 @@ import {
   knowhow,
   creativity,
   teamwork,
+  python
 } from "../assets/assets";
 
 // export const socialmediaFooter = [
@@ -115,6 +116,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "TypeScript",
@@ -263,7 +268,7 @@ const projects = [
     web_link: "https://mdcoaching.ch/",
   },
   {
-    name: "Todo App",
+    name: "To-Do Application",
     description:
       "The Python Flask Todo app is a secure and user-friendly task management application. Users can create individual accounts with register and login functionalities. With advanced features like password hashing, it ensures data security.",
     tags: [

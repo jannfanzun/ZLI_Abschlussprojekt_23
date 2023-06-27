@@ -1,53 +1,54 @@
-# Abschlussprojekt ZLI 💻
+# final project ZLI 💻
 
-Als Abschlussprojekt im ZLI habe ich eine Portfolio-Website entwickelt, die mithilfe von React, Tailwind CSS und Three.js umgesetzt wurde.
+For my final project in ZLI, I developed a portfolio website using React, Tailwind CSS, and Three.js.
 
 ![img](Dokumente/landingpagePortfolio.png)
 
-#### 🔎 Link:
-
-https://jannfanzun.vercel.app/
 ### 📄 Inhaltsverzeichnis
 
-- [Abschlussprojekt ZLI](#abschlussprojekt-zli)
-      - [Link:](#link)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-  - [Installation](#installation)
-  - [Verwendung](#verwendung)
-  - [Funktionen](#funktionen)
-  - [Technologien](#technologien)
-  - [Lizenz](#lizenz)
+- [final project ZLI 💻](#final-project-zli-)
+    - [📄 Inhaltsverzeichnis](#-inhaltsverzeichnis)
+    - [🔎 Link:](#-link)
+    - [🧨 Installation](#-installation)
+    - [🚀 Usage](#-usage)
+    - [📐 Functions](#-functions)
+    - [👾 Technologies](#-technologies)
+    - [✔ License](#-license)
 
+### 🔎 Link:
+
+https://jannfanzun.vercel.app/
 ### 🧨 Installation
 
-1. Klone das Repository: `git clone https://github.com/jannfanzun/ZLI_Abschlussprojekt_23.git`
-2. Wechsle in das Projektverzeichnis: `cd .\Abschlussprojekt_ZLI\`
-3. Installiere die Abhängigkeiten: `npm install @react-three/fiber @react-three/drei maath react-parallax-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom` && `npm install -D tailwindcss postcss autoprefixer` && `npx tailwindcssinit -p `
+1. Clone the repository: `git clone https://github.com/jannfanzun/ZLI_Abschlussprojekt_23.git`
+2. Switch to the project directory: `cd .\ZLI_Abschlussprojekt_23\`
+3. Install the dependencies: `npm install vite` && `npm install`
 
-### 🚀 Verwendung
+### 🚀 Usage
 
-1. Starte das Terminal und run die Applikation: `npm run dev`
-2. Öffne deinen Webbrowser und gehe zu: `http://localhost:xxxx` _**(der Localhost ist bei jedem anders)**_
+1. Starte das Terminal und run die Applikation: ```npm run dev```
+2. Open your web browser and go to: `http://localhost:xxxx` _**(the localhost address may vary for each person)**_
 
-### 📐 Funktionen
+### 📐 Functions
 
-- Auf der Webseite kannst du die 3d Elemente mit der Maus bewegen.
-  - **Linke Maustaste:** drehen
-  - **Rechte Maustaste:** bewegen
-- Du kannst die Navigationleiste betätigen, um dich in der Webseite zu navigieren.
-- Du kannst bspw. unter `Projects` die Links in den Icons klicken.
-- Du kannst mir über das Kontaktformular eine Nachricht senden.
+- On the website, you can interact with the 3D elements using your mouse.
+  - **Left mouse** button: Rotate
+  - **Right mouse** button: Move
+- You can use the navigation bar to navigate through the website.
+- For example, under the "**Projects**" section, you can click on the links within the icons.
+- You can send me a message through the contact form.
 
+### 👾 Technologies 
 
-### 👾 Technologien 
+- _**_React_**_: A JavaScript library for building user interfaces.
+- _**_Three.js_**_: A cross-platform JavaScript library for creating 3D graphics in web browsers.
+- _**_Three Fiber_**_: An extension for Three.js that makes it easier to develop 3D applications in React.
+- _**_Framer Motion_**_: A React animation library for creating engaging animations on the website.
+- _**_Tailwind CSS_**_: A CSS framework that uses pre-built classes to style the design and layout of the website.
+- _**_Email.js_**_: A JavaScript library for easy integration of email sending functionality into the website.
 
-- **_React_**: Eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen.
-- **_Three.js_**: Eine plattformübergreifende JavaScript-Bibliothek zur Erstellung von 3D-Grafiken in Webbrowsern.
-- **_Three Fiber_**: Eine Erweiterung für Three.js, die die Entwicklung von 3D-Anwendungen in React erleichtert.
-- **_Framer Motion_**: Eine Animationsbibliothek für React, um ansprechende Animationen auf der Website zu erstellen.
-- **_Tailwind CSS_**: Ein CSS-Framework, das vorgefertigte Klassen verwendet, um das Design und Layout der Website zu gestalten.
-- **_Email.js_**: Eine JavaScript-Bibliothek zur einfachen Integration von E-Mail-Versandfunktionen in die Website.
+### ✔ License
 
-### ✔ Lizenz
+This project is protected by copyright and is subject to the relevant rights.
 
-Dieses Projekt ist urheberrechtlich geschützt und unterliegt den entsprechenden Rechten.
+**_by Jann Fanzun_**
