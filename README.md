@@ -26,7 +26,7 @@ https://jannfanzun.vercel.app/
 
 ### 🚀 Usage
 
-1. Starte das Terminal und run die Applikation: ```npm run dev```
+1. Start the terminal and run the application: ```npm run dev```
 2. Open your web browser and go to: `http://localhost:xxxx` _**(the localhost address may vary for each person)**_
 
 ### 📐 Functions
